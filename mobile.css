@@ -1,0 +1,70 @@
+@media screen and (max-width: 480px){
+    .services-grid{
+        grid-template-columns: auto;
+    }
+
+    .dif{
+        grid-column: 1/1;
+    }
+
+    .potfolio-grid{
+        grid-template-columns: auto;
+    }
+
+    .team-grid{
+        grid-template-columns: auto;
+    }
+
+    .blog-grid{
+        grid-template-columns: auto;
+    }
+
+    .who-info{
+        flex-direction: column-reverse;
+    }
+
+    .who-img{
+        width: 100%;
+    }
+
+    .potfolio-grid-info{
+        top: 0;
+    }
+    
+    .team-grid-card-effect{
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+
+    .header-navbar{
+        flex-direction: column;
+    }
+
+    .header-navbar{
+        width: 100%;
+    }
+
+    .header-navbar li a{
+        border-bottom: 1px dotted black;
+        width: 100%;
+    }
+
+    .header-logo svg{
+        display: inline-block;
+    }
+    .header-logo{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+}
